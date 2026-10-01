@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/tests/">
+    <Project Path="tests/MaskCheck/MaskCheck.csproj" />
+  </Folder>
+  <Project Path="BeatGlow/BeatGlow.csproj" />
+</Solution>

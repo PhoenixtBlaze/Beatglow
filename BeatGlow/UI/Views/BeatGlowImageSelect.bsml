@@ -1,0 +1,25 @@
+<bg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd">
+  <vertical pad="1" spacing="1">
+    <text text="Show one in game" align="Center" font-size="4"/>
+    <horizontal pad="1">
+      <button text="Logo" on-click="choose-logo" pref-width="28" pref-height="8" hover-hint="Show the uploaded image"/>
+      <button text="Gamertag" on-click="choose-text" pref-width="28" pref-height="8" hover-hint="Show the typed name"/>
+    </horizontal>
+    <text id="mode-text" text="Next song shows the logo." align="Center" font-size="3"/>
+    <toggle-setting text="Stand up" value="stand-up" apply-on-change="true" hover-hint="On stands the name or logo upright. Off leaves it flat on the runway. Applies on the next song."/>
+    <vertical id="logo-section" pad="0" spacing="1">
+      <text id="status-text" text="Click a PNG below." align="Center" font-size="3.5"/>
+      <button id="png-0" text="PNG 1" on-click="pick-0" pref-width="86" pref-height="7"/>
+      <button id="png-1" text="PNG 2" on-click="pick-1" pref-width="86" pref-height="7"/>
+      <button id="png-2" text="PNG 3" on-click="pick-2" pref-width="86" pref-height="7"/>
+      <button id="png-3" text="PNG 4" on-click="pick-3" pref-width="86" pref-height="7"/>
+      <button id="png-4" text="PNG 5" on-click="pick-4" pref-width="86" pref-height="7"/>
+      <button id="png-5" text="PNG 6" on-click="pick-5" pref-width="86" pref-height="7"/>
+    </vertical>
+    <vertical id="text-section" pad="1" spacing="1">
+      <text text="Typed name on both sides of the runway." align="Center" font-size="3"/>
+      <string-setting text="Gamertag" value="gamertag" apply-on-change="true" hover-hint="Shown beside the runway on the next song"/>
+    </vertical>
+  </vertical>
+</bg>

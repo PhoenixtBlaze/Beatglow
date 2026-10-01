@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\BeatGlow\Graphics\WhiteMaskMath.cs" Link="WhiteMaskMath.cs" />
+    <Compile Include="..\..\BeatGlow\Graphics\EqualizerLevel.cs" Link="EqualizerLevel.cs" />
+    <Compile Include="..\..\BeatGlow\Graphics\BandColor.cs" Link="BandColor.cs" />
+    <Compile Include="..\..\BeatGlow\Graphics\SpectrumFill.cs" Link="SpectrumFill.cs" />
+    <Compile Include="..\..\BeatGlow\GamertagText.cs" Link="GamertagText.cs" />
+  </ItemGroup>
+</Project>

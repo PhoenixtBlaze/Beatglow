@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/bsmg/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "BeatGlow",
+  "name": "BeatGlow",
+  "author": "PhoenixBlaze0",
+  "version": "1.0.12",
+  "description": "Shows a chosen logo on both sides of the runway. White text changes color with the music like an equalizer, without touching environment light shows.",
+  "gameVersion": "1.40.8",
+  "dependsOn": {
+    "BSIPA": "^4.3.6",
+    "BeatSaberMarkupLanguage": "^1.12.5",
+    "BS Utils": "^1.14.2",
+    "SiraUtil": "^3.1.0"
+  },
+  "loadAfter": [
+    "SiraUtil"
+  ]
+}
